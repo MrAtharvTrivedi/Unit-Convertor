@@ -10,8 +10,8 @@ print("The values which you are allowed to use are:")
 for i in range(0,4):
     print(length_values[i])
 
-from_choice = str(input("From which unit you want to convert (use abbreviations given in brackets) :"))
-to_choice = str(input("To which unit you want to convert (use abbreviations given in brackets) :"))
+from_choice = str(input("From which unit you want to convert (use abbreviations given in brackets) :")).lower()
+to_choice = str(input("To which unit you want to convert (use abbreviations given in brackets) :")).lower()
 length_value = float(input("Enter the value:"))
 
 
